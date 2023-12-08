@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image A" />
+
+    <Button
+        android:id="@+id/btnb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image B" />
+
+    <Button
+        android:id="@+id/btnc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image C" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="474dp"
+        android:src="@drawable/blue_image" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Kevin Le - CSCE 3220" />
+</LinearLayout>
